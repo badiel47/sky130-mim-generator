@@ -12,8 +12,12 @@ Instead of relying on static, pre-drawn library instantiation, this script progr
 * **LVS-Ready Pin Extraction:** Automatically generates `PLUS` and `MINUS` text labels mapped to the correct GDSII datatypes (Layer 70/71, Datatype 5) for flawless Layout vs. Schematic (LVS) extraction.
 
 ## Visual Proof
-*(Insert KLayout layout screenshots here)*
-> **Note for the developer:** Place your screenshots inside the `/docs` folder and link them here using `![MIM Capacitor](docs/mim_layout_250fF.png)`.
+
+**Top-Level View (250 fF MIM Capacitor)**
+![General Layout](docs/mim_layout_250fF.png)
+
+**DRC Enclosure & LVS Labels Zoom**
+![DRC Detail](docs/drc_enclosure.png)
 
 ## Tech Stack
 * **Language:** Python 3
